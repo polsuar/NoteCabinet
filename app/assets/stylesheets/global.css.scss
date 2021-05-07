@@ -2,11 +2,7 @@ $dark_gray: #2B2E2E;
 $light_gray: #C0C1C1;
 $green: #529ECC;
 
-@mixin bold_font {
-  font-family: 'Dosis', sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
-}
+
 
 * {
 	box-sizing: border-box;
@@ -59,10 +55,10 @@ button, .button {
 }
 
 a {
-	color: $green;
+	color: lightblue;
 	text-decoration: none;
 	&:hover {
-		color: $dark_gray;
+		color: darkgray;
 	}
 }
 
@@ -111,7 +107,6 @@ footer {
 	padding: 2rem 0;
 	color: white;
 	text-align: center;
-	@include bold_font;
 	p {
 		margin: 0;
 		font-size: .65rem;
